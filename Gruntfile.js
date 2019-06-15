@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         /* Uncomment this item once you've created your own resume.json file
            in the project root.  This will use your own data to build your site.
          */
-        // 'copy:resumejson',
+        'copy:resumejson',
         'clean',
         'copy:build',
         'less',
